@@ -1,0 +1,234 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 970px;
+    min-height: 650px;
+    margin: 0 auto;
+    background-image:  linear-gradient(#1e415e, #2b5b84);
+    position: relative;
+
+}
+    .pythonLogo{
+        width: 250px;
+        position:  absolute;
+        top: 20px;
+        left: 20px;
+    }
+    .donateButton{
+        background-image: linear-gradient(#ffe48a,#ffd651);
+        text-decoration: none;
+        color: black;
+        font-size: 12px;
+        padding: 5px 10px;
+        border-radius: 3px;
+        margin: 37px 0 40px 40px;
+        position: absolute;
+        right: 340px;
+    }
+    form{
+        background-color: #1e2933;
+        padding: 13px;
+        margin: 20px 0;
+        border-radius: 5px;
+        position: absolute;
+        right: 90px;
+    }
+        form  input[type='button']{
+            background-image: linear-gradient(#3879af, #427aa7);
+            padding: 5px 3px;
+            color: white;
+            border: 1px solid transparent;
+        }
+        form  input[type='text']{
+            width: 180px;
+            height: 25px;
+            border: 1px solid transparent;
+        }
+    .socializeButton{
+        background-color: #1e2933;
+        padding: 20px 10px;
+        margin: 20px 0;
+        border-radius: 5px;
+        color: white;
+        font-size: 12px;
+        text-decoration: none;
+        position: absolute;    
+        right: 20px;
+    }
+    .navigationBar{
+        background-image: linear-gradient(#3776ab,#2e638f);
+        font-size: 13px;
+        padding:1px 80px;
+        border-radius: 5px;
+        position: absolute;
+        top: 80px;
+        left: 20px;
+    }
+        .navigationBar li{
+            display: inline-block;
+            padding: 15px 23px;
+            border-right: 1px solid #3776ab;
+        }
+        .navigationBar a{
+           color:white;
+           text-decoration: none;
+        }
+        #selected{
+            background-color: #255175;
+            border-left: 1px solid #3776ab;
+        }
+    .powerOfPython{
+        width: 350px;
+        position: absolute;
+        left: 70px;
+        top: 165px;
+    }
+        .powerOfPython h2{
+           line-height: 1.25;
+           padding:0;
+           margin:0;
+           color: #ffd343;
+        }
+        .powerOfPython p{
+            line-height: 1.25;
+            font-size: 14px;
+            padding:5px 0;
+            margin:0;
+            color: white;
+         }
+    .boxArt{
+        width: 440px;
+        position: absolute;
+        right: 70px;
+        top: 140px;
+    }
+    .contents{
+        background-color: white;
+        width: 970px;
+        min-height: 200px;
+        position: absolute;
+        top: 385px;
+    }
+        #decor1{
+            background-color:#75a8d3;
+            width: 450px;
+            height: 4px;
+            position: absolute;
+            left: 20px;
+            top: 10px;
+        }
+        #decor2{
+            background-color:#75a8d3;
+            width: 450px;
+            height: 4px;
+            position: absolute;
+            right: 20px;
+            top: 10px;
+        }
+        .contents p{
+            font-size: 12px;
+            color: black;
+        }
+        .contents .latestNews{
+            width: 450px;
+            position: absolute;
+            left: 20px;
+            top: 25px;
+        }
+            .latestNews #labelForNews{
+                font-size: 12px;
+                padding-bottom: 2px;
+            }
+                #labelForNews a{
+                    position: absolute;
+                    right: 10px;
+                    text-decoration: none;
+                    color: gray;
+                }
+            #labelForNews span{
+                color:black;
+            }
+            .latestNews p{
+                border-top: 1px solid gray;
+                padding: 5px 0px;
+                margin: 2px;
+            }
+                .latestNews p a{
+                    font-size: 12px;
+                    color: blue;
+                    text-decoration: none;
+                }
+                .latestNews p span{
+                    padding: 0 25px 0 0;
+                }
+         .pythonUsage{
+            width: 450px;
+            position: absolute;
+            right: 20px;
+            top: 25px;
+        }
+            .pythonUsage #labelForUsage{
+                font-size: 12px;
+                padding-bottom: 3px;
+                border-bottom: 1px solid gray;
+            }
+                #labelForUsage a{
+                    position: absolute;
+                    right: 10px;
+                    text-decoration: none;
+                    color: gray;
+                }
+            .pythonUsage .usages p{
+                border-bottom: 1px solid gray;
+                color: black;
+                padding: 0;
+                margin:0;
+            }
+                .usages span{
+                    color:black;
+                    font-weight: bold;
+                    display: inline-block;
+                    padding: 5px 0px;
+                    margin: 1px;
+                }
+                .usages a{
+                    background-color: #e6e8ea;
+                    padding: 3px 1px;
+                    font-size: 11px;
+                    color: gray;
+                    text-decoration: none;
+                }
+    .contactDetails{
+        font-size: 12px;
+        color:#6d91b4;
+        position: absolute;
+        bottom: 15px;
+        left: 280px;
+    }
+        .contactDetails a{
+            color: #6d91b4;
+            padding-right: 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        #lightStatus{
+            font-size: 45px;
+            color: green;
+            vertical-align: middle;
+        }
+    .copyrightDetails{
+        font-size: 9px;
+        color:#6d91b4;
+        position: absolute;
+        bottom: 10px;
+        left: 295px;
+    }
+        .copyrightDetails a{
+            color: #6d91b4;
+            padding-right: 1px;
+            border-bottom: 1px dotted #6d91b4;
+        }
+        
